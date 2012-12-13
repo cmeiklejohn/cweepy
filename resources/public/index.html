@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Cweepy</title>
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+  </head>
+
+  <body>
+    <article id="app">
+      <div>
+        <header>
+          <div class="header">
+            <h1>Cweepy</h1>
+            <div id="add-cweep" class="add-cweep">+</div>
+          </div>
+        </header>
+      </div>
+
+      <div id="add-cweep-form" class="add-cweep-form">
+        <input id="add-cweep-message" type="text" class="message" />
+        <a id="add-cweep-submit" class="button post">POST!</a>
+      </div>
+
+      <div id="content">
+        <ul id="cweep-list" class="cweep-list"></ul>
+      </div>
+    </article>
+
+    <script type="text/javascript" src="application.js"></script>
+    <script type="text/javascript">cweepy.core.main();</script>
+  </body>
+</html>
